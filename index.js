@@ -11,7 +11,7 @@ const lectureRouter = require("./Routes/lecture.route");
 const Port=8080 || process.env.Port
 
 app.get("/",(req,res)=>{
-    res.status(200).send({message:"Welcome to Backend of Eduhub here you can login and register by route(api/register ,api/login) For Posts  get (api/posts) post (api/posts) update,delete(api/posts/:post_id) like (api/posts/:post_id/like) comment (api/posts/:post_id/comment)"})
+    res.status(200).send({message:"Welcome to Backend of Eduhub here you can login and register by route(user/register ,user/login) For Courses  get (/course) create (/course/create) update,delete(/course/:courseId) {For Enrolling in Courses (/course/enroll/:courseId')} For lecture (/lecture/create) update,delete(/lecture/:lectureId))"})
 })
 app.use(express.json())
 app.use(cors())
