@@ -1,0 +1,32 @@
+{
+  "name": "eduhub_backend",
+  "version": "1.0.0",
+  "description": "Eduhub is basically course based LMS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivendra-Pratap-Dixit/Eduhub_Backend.git"
+  },
+  "author": "Shivendra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shivendra-Pratap-Dixit/Eduhub_Backend/issues"
+  },
+  "homepage": "https://github.com/Shivendra-Pratap-Dixit/Eduhub_Backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "joi": "^17.12.2",
+    "joi-password-complexity": "^5.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0"
+  }
+}
